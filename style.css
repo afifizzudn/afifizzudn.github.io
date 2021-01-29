@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+    color: #0a043c;
+}
+
+#head {
+    font-size: 17px;
+    text-align: center;
+    margin-top: -30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#footer {
+    font-size: 10px;
+    width:100%;
+    bottom: 0px;
+    position:absolute;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.table {
+    margin-left:auto;
+    margin-right:auto
+}
+
+table , th, td {
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgb(102, 7, 7);
+    border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+th, td {
+    padding: 10px;
+    width: 100px;
+
+}
+
+th {
+    background-color: #a3ddcb;
+}
+
+.th-no {
+    width: 10%;
+}
+
+.th-kerjaan {
+    width: 70%;
+}
+
+.td-kerjaan {
+    text-align: justify;
+}
+
+
+.btn-hapus {
+    background-color: red;
+    color: cornsilk;
+}
+
+.btn-edit {
+    background-color: rgb(201, 171, 5);
+    color: cornsilk;
+}
+
+.btn-tambah {
+    padding: 2px;
+    font-size: 20px;
+    color: white ;
+    background-color: #03506f;
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }

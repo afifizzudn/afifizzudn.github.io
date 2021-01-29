@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List - BETA</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>To Do List App</title>
 </head>
 <body>
-    <h1>TO DO LIST APP</h1>
+    <h1>SIMPLE - TO DO LIST APP()</h1>
+    <P id="head">by: afifizzudn</P>
+
+    <div class="container">
+
+        <form> 
+            <input type="text" id="inputan" name="toDoList" placeholder="Masukan Kegiatan..">
+            <button class ="btn-tambah"type="button" onclick="add()">Tambah</button>
+        </form>
+
+        <p>Total Kegiatan :</p>
+        <p id="count">0</p>
+
+        <table id="tabel">
+        </table>
+    </div>
+
+    <footer>
+        <p id=footer>Copyright @afifizzudn 2021</p>
+    </footer>
     
+<script src="script.js"></script>
 </body>
 </html>
+
